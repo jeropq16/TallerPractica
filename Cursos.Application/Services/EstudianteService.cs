@@ -12,25 +12,42 @@ public class EstudianteService
         _repository = repository;
     }
 
-    public async Task<Estudiantes> AddEstudiante(Estudiantes estudiantes)
+    public async Task<Estudiante> AddEstudiante(Estudiante estudiante)
     {
-        return await _repository.AddEstudiante(estudiantes);
+        return await _repository.AddEstudiante(estudiante);
     }
 
-    public async Task<IEnumerable<Estudiantes>> GetAllEstudiantes()
+    public async Task<IEnumerable<Estudiante>> GetAllEstudiantes()
     {
         return await _repository.GetAllEstudiantes();
     }
 
-    public async Task<Estudiantes> GetEstudianteById(int id)
+    public async Task<Estudiante> GetEstudianteById(int id)
     {
         return await _repository.GetEstudianteById(id);
     }
 
-    public async Task<Estudiantes> UpdateEstudiante( int id, Estudiantes estudiantes)
+    public async Task<Estudiante?> UpdateEstudiante(int id, Estudiante estudiante)
     {
-        var existe = _repository.GetEstudianteById(id);
+        var existe = await _repository.GetEstudianteById(id);
+
         if (existe == null) return null;
-        return estudiantes;
+
+        existe.Nombre = estudiante.Nombre;
+        existe.Email = estudiante.Email;
+        existe.Telefono = estudiante.Telefono;
+
+        return await _repository.UpdateEstudiante(existe);
     }
+
+    public async Task<Estudiante?> DeleteEstudiante(int id)
+    {
+        var existe = await _repository.GetEstudianteById(id);
+        if (existe == null) return null;
+
+        await _repository.DeleteEstudiante(existe);
+        return existe;
+    }
+
+
 }
