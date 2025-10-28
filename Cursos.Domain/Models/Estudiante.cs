@@ -1,6 +1,6 @@
 namespace Cursos.Domain.Models;
 
-public class Estudiantes
+public class Estudiante
 {
     public int Id { get; set; }
     public string Nombre { get; set; }

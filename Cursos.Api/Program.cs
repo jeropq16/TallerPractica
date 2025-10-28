@@ -1,4 +1,7 @@
+using Cursos.Application.Services;
+using Cursos.Domain.Interfaces;
 using Cursos.Infrastructure.Data;
+using Cursos.Infrastructure.Repositories;
 using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -6,6 +9,12 @@ builder.Services.AddDbContext<AppDbContext>(options =>
     options.UseMySql(builder.Configuration.GetConnectionString("DefaultConnection"),
     new  MySqlServerVersion(new Version(8, 0, 43))));
 
+
+builder.Services.AddControllers();
+builder.Services.AddScoped<IEstudiantesRepository, EstudiantesRepository>();
+builder.Services.AddScoped<EstudianteService>();
+builder.Services.AddScoped<ICursosRepository, CursoRepository>();
+builder.Services.AddScoped<CursoService>();
 
 // Add services to the container.
 // Learn more about configuring OpenAPI at https://aka.ms/aspnet/openapi
@@ -20,6 +29,8 @@ if (app.Environment.IsDevelopment())
 }
 
 app.UseHttpsRedirection();
+
+app.MapControllers();
 
 var summaries = new[]
 {

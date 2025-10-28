@@ -4,11 +4,11 @@ namespace Cursos.Domain.Interfaces;
 
 public interface IEstudiantesRepository
 {
-    Task<IEnumerable<Estudiantes>> GetAllEstudiantes();
-    Task<Estudiantes> AddEstudiante(Estudiantes estudiantes);
+    Task<IEnumerable<Estudiante>> GetAllEstudiantes();
+    Task<Estudiante> AddEstudiante(Estudiante estudiante);
     
-    Task<Estudiantes> GetEstudianteById(int id);
+    Task<Estudiante> GetEstudianteById(int id);
     
-    Task UpdateEstudiante(Estudiantes estudiantes);
-    Task DeleteEstudiante(Estudiantes estudiantes);
+    Task<Estudiante> UpdateEstudiante(Estudiante estudiante);
+    Task DeleteEstudiante(Estudiante estudiante);
 }
