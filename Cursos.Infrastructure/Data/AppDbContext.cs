@@ -10,6 +10,4 @@ public class AppDbContext : DbContext
     public DbSet<Estudiantes>  Estudiantes { get; set; }
     public DbSet<Curso>  Cursos { get; set; }
     public DbSet<Inscripciones> Inscripciones { get; set; }
-    
-    
 }
