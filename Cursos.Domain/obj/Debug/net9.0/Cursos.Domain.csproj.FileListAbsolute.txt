@@ -1,0 +1,12 @@
+/home/ders/Escritorio/TallerPractica/Cursos.Domain/bin/Debug/net9.0/Cursos.Domain.deps.json
+/home/ders/Escritorio/TallerPractica/Cursos.Domain/bin/Debug/net9.0/Cursos.Domain.dll
+/home/ders/Escritorio/TallerPractica/Cursos.Domain/bin/Debug/net9.0/Cursos.Domain.pdb
+/home/ders/Escritorio/TallerPractica/Cursos.Domain/obj/Debug/net9.0/Cursos.Domain.GeneratedMSBuildEditorConfig.editorconfig
+/home/ders/Escritorio/TallerPractica/Cursos.Domain/obj/Debug/net9.0/Cursos.Domain.AssemblyInfoInputs.cache
+/home/ders/Escritorio/TallerPractica/Cursos.Domain/obj/Debug/net9.0/Cursos.Domain.AssemblyInfo.cs
+/home/ders/Escritorio/TallerPractica/Cursos.Domain/obj/Debug/net9.0/Cursos.Domain.csproj.CoreCompileInputs.cache
+/home/ders/Escritorio/TallerPractica/Cursos.Domain/obj/Debug/net9.0/Cursos.Domain.sourcelink.json
+/home/ders/Escritorio/TallerPractica/Cursos.Domain/obj/Debug/net9.0/Cursos.Domain.dll
+/home/ders/Escritorio/TallerPractica/Cursos.Domain/obj/Debug/net9.0/refint/Cursos.Domain.dll
+/home/ders/Escritorio/TallerPractica/Cursos.Domain/obj/Debug/net9.0/Cursos.Domain.pdb
+/home/ders/Escritorio/TallerPractica/Cursos.Domain/obj/Debug/net9.0/ref/Cursos.Domain.dll

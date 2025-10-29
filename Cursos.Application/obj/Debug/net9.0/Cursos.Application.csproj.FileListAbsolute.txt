@@ -1,0 +1,16 @@
+/home/ders/Escritorio/TallerPractica/Cursos.Application/bin/Debug/net9.0/Cursos.Application.deps.json
+/home/ders/Escritorio/TallerPractica/Cursos.Application/bin/Debug/net9.0/Cursos.Application.dll
+/home/ders/Escritorio/TallerPractica/Cursos.Application/bin/Debug/net9.0/Cursos.Application.pdb
+/home/ders/Escritorio/TallerPractica/Cursos.Application/bin/Debug/net9.0/Cursos.Domain.dll
+/home/ders/Escritorio/TallerPractica/Cursos.Application/bin/Debug/net9.0/Cursos.Domain.pdb
+/home/ders/Escritorio/TallerPractica/Cursos.Application/obj/Debug/net9.0/Cursos.Application.csproj.AssemblyReference.cache
+/home/ders/Escritorio/TallerPractica/Cursos.Application/obj/Debug/net9.0/Cursos.Application.GeneratedMSBuildEditorConfig.editorconfig
+/home/ders/Escritorio/TallerPractica/Cursos.Application/obj/Debug/net9.0/Cursos.Application.AssemblyInfoInputs.cache
+/home/ders/Escritorio/TallerPractica/Cursos.Application/obj/Debug/net9.0/Cursos.Application.AssemblyInfo.cs
+/home/ders/Escritorio/TallerPractica/Cursos.Application/obj/Debug/net9.0/Cursos.Application.csproj.CoreCompileInputs.cache
+/home/ders/Escritorio/TallerPractica/Cursos.Application/obj/Debug/net9.0/Cursos.Application.sourcelink.json
+/home/ders/Escritorio/TallerPractica/Cursos.Application/obj/Debug/net9.0/Cursos.A.4E10E657.Up2Date
+/home/ders/Escritorio/TallerPractica/Cursos.Application/obj/Debug/net9.0/Cursos.Application.dll
+/home/ders/Escritorio/TallerPractica/Cursos.Application/obj/Debug/net9.0/refint/Cursos.Application.dll
+/home/ders/Escritorio/TallerPractica/Cursos.Application/obj/Debug/net9.0/Cursos.Application.pdb
+/home/ders/Escritorio/TallerPractica/Cursos.Application/obj/Debug/net9.0/ref/Cursos.Application.dll
