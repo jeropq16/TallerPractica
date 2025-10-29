@@ -1,5 +1,6 @@
 using Microsoft.AspNetCore.Mvc;
-using Cursos.Application.Interfaces;
+using Cursos.Domain.Interfaces;
+using Cursos.Application.Services;
 using Cursos.Domain.Models;
 
 namespace Cursos.Api.Controllers
@@ -8,9 +9,9 @@ namespace Cursos.Api.Controllers
     [Route("api/[controller]")]
     public class InscripcionesController : ControllerBase
     {
-        private readonly IInscripcionesService _service;
+        private readonly InscripcionesService _service;
 
-        public InscripcionesController(IInscripcionesService service)
+        public InscripcionesController(InscripcionesService service)
         {
             _service = service;
         }

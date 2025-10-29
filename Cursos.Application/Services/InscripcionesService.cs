@@ -1,10 +1,9 @@
-using Cursos.Application.Interfaces;
 using Cursos.Domain.Interfaces;
 using Cursos.Domain.Models;
 
 namespace Cursos.Application.Services
 {
-    public class InscripcionesService : IInscripcionesService
+    public class InscripcionesService
     {
         private readonly IInscripcionesRepository _repo;
 

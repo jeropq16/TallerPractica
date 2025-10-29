@@ -1,4 +1,4 @@
-using Cursos.Application.Interfaces;
+using Cursos.Domain.Interfaces;
 using Cursos.Application.Services;
 using Cursos.Domain.Interfaces;
 using Cursos.Infrastructure.Data;
@@ -16,7 +16,7 @@ builder.Services.AddScoped<IEstudiantesRepository, EstudiantesRepository>();
 builder.Services.AddScoped<EstudianteService>();
 builder.Services.AddScoped<ICursosRepository, CursoRepository>();
 builder.Services.AddScoped<CursoService>();
-builder.Services.AddScoped<IInscripcionesService, InscripcionesService>();
+builder.Services.AddScoped<InscripcionesService, InscripcionesService>();
 
 
 // Add services to the container.
