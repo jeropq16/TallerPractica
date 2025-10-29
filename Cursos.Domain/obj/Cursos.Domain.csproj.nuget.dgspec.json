@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "/home/anamaria-mu-oz/Escritorio/TallerPractica/Cursos.Domain/Cursos.Domain.csproj": {}
+    "/home/ders/Escritorio/TallerPractica/Cursos.Domain/Cursos.Domain.csproj": {}
   },
   "projects": {
-    "/home/anamaria-mu-oz/Escritorio/TallerPractica/Cursos.Domain/Cursos.Domain.csproj": {
+    "/home/ders/Escritorio/TallerPractica/Cursos.Domain/Cursos.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/anamaria-mu-oz/Escritorio/TallerPractica/Cursos.Domain/Cursos.Domain.csproj",
+        "projectUniqueName": "/home/ders/Escritorio/TallerPractica/Cursos.Domain/Cursos.Domain.csproj",
         "projectName": "Cursos.Domain",
-        "projectPath": "/home/anamaria-mu-oz/Escritorio/TallerPractica/Cursos.Domain/Cursos.Domain.csproj",
-        "packagesPath": "/home/anamaria-mu-oz/.nuget/packages/",
-        "outputPath": "/home/anamaria-mu-oz/Escritorio/TallerPractica/Cursos.Domain/obj/",
+        "projectPath": "/home/ders/Escritorio/TallerPractica/Cursos.Domain/Cursos.Domain.csproj",
+        "packagesPath": "/home/ders/.nuget/packages/",
+        "outputPath": "/home/ders/Escritorio/TallerPractica/Cursos.Domain/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/home/anamaria-mu-oz/.nuget/NuGet/NuGet.Config"
+          "/home/ders/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net9.0"
@@ -59,7 +59,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/home/anamaria-mu-oz/.dotnet/sdk/9.0.306/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/9.0.306/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

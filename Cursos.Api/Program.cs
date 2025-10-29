@@ -17,6 +17,8 @@ builder.Services.AddScoped<EstudianteService>();
 builder.Services.AddScoped<ICursosRepository, CursoRepository>();
 builder.Services.AddScoped<CursoService>();
 builder.Services.AddScoped<InscripcionesService, InscripcionesService>();
+builder.Services.AddScoped<IInscripcionesRepository, InscripcionesRepository>();
+builder.Services.AddScoped<InscripcionesService>();
 
 
 // Add services to the container.

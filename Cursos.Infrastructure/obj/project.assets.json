@@ -3104,19 +3104,19 @@
     ]
   },
   "packageFolders": {
-    "/home/santosc/.nuget/packages/": {}
+    "/home/ders/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/santosc/Escritorio/TallerPractica/Cursos.Infrastructure/Cursos.Infrastructure.csproj",
+      "projectUniqueName": "/home/ders/Escritorio/TallerPractica/Cursos.Infrastructure/Cursos.Infrastructure.csproj",
       "projectName": "Cursos.Infrastructure",
-      "projectPath": "/home/santosc/Escritorio/TallerPractica/Cursos.Infrastructure/Cursos.Infrastructure.csproj",
-      "packagesPath": "/home/santosc/.nuget/packages/",
-      "outputPath": "/home/santosc/Escritorio/TallerPractica/Cursos.Infrastructure/obj/",
+      "projectPath": "/home/ders/Escritorio/TallerPractica/Cursos.Infrastructure/Cursos.Infrastructure.csproj",
+      "packagesPath": "/home/ders/.nuget/packages/",
+      "outputPath": "/home/ders/Escritorio/TallerPractica/Cursos.Infrastructure/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/home/santosc/.nuget/NuGet/NuGet.Config"
+        "/home/ders/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net9.0"
@@ -3128,8 +3128,8 @@
         "net9.0": {
           "targetAlias": "net9.0",
           "projectReferences": {
-            "/home/santosc/Escritorio/TallerPractica/Cursos.Domain/Cursos.Domain.csproj": {
-              "projectPath": "/home/santosc/Escritorio/TallerPractica/Cursos.Domain/Cursos.Domain.csproj"
+            "/home/ders/Escritorio/TallerPractica/Cursos.Domain/Cursos.Domain.csproj": {
+              "projectPath": "/home/ders/Escritorio/TallerPractica/Cursos.Domain/Cursos.Domain.csproj"
             }
           }
         }
@@ -3189,7 +3189,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/home/santosc/.dotnet/sdk/9.0.306/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/9.0.306/PortableRuntimeIdentifierGraph.json"
       }
     }
   }
