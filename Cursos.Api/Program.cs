@@ -1,3 +1,4 @@
+using Cursos.Domain.Interfaces;
 using Cursos.Application.Services;
 using Cursos.Domain.Interfaces;
 using Cursos.Infrastructure.Data;
@@ -15,6 +16,10 @@ builder.Services.AddScoped<IEstudiantesRepository, EstudiantesRepository>();
 builder.Services.AddScoped<EstudianteService>();
 builder.Services.AddScoped<ICursosRepository, CursoRepository>();
 builder.Services.AddScoped<CursoService>();
+builder.Services.AddScoped<InscripcionesService, InscripcionesService>();
+builder.Services.AddScoped<IInscripcionesRepository, InscripcionesRepository>();
+builder.Services.AddScoped<InscripcionesService>();
+
 
 // Add services to the container.
 // Learn more about configuring OpenAPI at https://aka.ms/aspnet/openapi
